@@ -1,5 +1,6 @@
 # Election_Analysis
 ## Project Overview - explain the purpose of this election audit analysis
+
 A member of the Colorado Board of Elections has tasked me to complete an election audit of the US Congressional precinct election in Colorado, including analysis of the candidates and county votes.
 
 1. Calculate the total number of votes cast
@@ -13,10 +14,12 @@ A member of the Colorado Board of Elections has tasked me to complete an electio
 9. Determine the county with the largest voter turnout
 
 ## Resources
+
 - Data Source: election_results.csv
-- Software: Python 3.7, Visual Studio Code, 1.38.1
+- Software: Python 3.7.6, Visual Studio Code, 1.60.2
 
 ## Election-Audit Results
+
 - There were 369,711 total votes cast in this election
     - This was achieved with the following code inside a `for` loop, tallying the total number of votes as it looped through each row
     `total_votes = total_votes + 1`
