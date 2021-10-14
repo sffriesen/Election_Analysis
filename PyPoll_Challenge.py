@@ -6,7 +6,7 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = 'Resources/election_results.csv'
+file_to_load = (r"C:\Users\This PC\Desktop\ClassFolder\Repos\Election_Analysis\Resources\election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_results.txt")
 
